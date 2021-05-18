@@ -90,7 +90,7 @@ public class CartTests extends BaseTests {
         searchpage.AddtoBag();
        // searchpage.gotoCart();
         Cart cartik = searchpage.gotoCart();
-        assertEquals(cartik.numofItemstwo(), "(2 Item)");
+      assertEquals(cartik.numofItemstwo(), "(2 items)");
     }
 
 }
